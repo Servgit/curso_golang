@@ -21,4 +21,16 @@ func main() {
 
 	fmt.Println(subSlicen)
 	fmt.Println(numeros)
+
+	//Punteros
+	//Longitud
+	//Capacidad
+
+	meses := []string{"Enero", "Febrero", "Marzo"}
+
+	fmt.Printf("Len: %v, cap: %v, %p \n", len(meses), cap(meses), meses)
+
+	meses = append(meses, "Abril")
+
+	fmt.Printf("Len: %v, cap: %v, %p \n", len(meses), cap(meses), meses)
 }
